@@ -1,31 +1,20 @@
-body{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 16px;
-    width: 50%;
-    margin: auto;
-    background-color:azure;
-
-}
-
 *{
     padding: 0;
     margin: 0;
 }
 
-.maintab{
-    margin: 0px 0px 10px 0px;
-    font-size: 20px;
-    display: flex;
-}
-
-.maintab h1{
-    margin-left: 40px;
-    margin-top: 40px;
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    width: 50%;
+    margin: auto;
+    background-color:#485264;
+    color: #111E32;
 }
 
 a {
-    color: black;
     text-decoration: none;
+    color: inherit;
 }
 
 a:hover {
@@ -33,37 +22,12 @@ a:hover {
 }
 
 a:active{
-    color: gray;
+    color: #485264;
 }
 
 h2:hover{
     text-shadow: 4px 4px 15px black;
     transition: 0.5s;
-}
-
-.bg-red{
-    background-color: rgb(255, 137, 137);
-}
-
-.card{
-    padding: 15px 20px;
-    margin-bottom: 10px;
-    border-radius: 20px;
-}
-
-.card h2{
-    margin-bottom: 10px;
-}
-
-.image1{
-    width: 200px;
-    border-radius: 50px;
-    box-shadow: 4px 4px 15px gray;
-}
-
-.contacts{
-    border: 1px solid black;
-    background-color: gray;
 }
 
 h2{
@@ -74,8 +38,41 @@ h3{
     margin: 0;
 }
 
-.request{
-    
+.maintab{
+    margin: 10px 0px 10px 0px;
+    font-size: 20px;
+    display: flex;
+}
+
+.maintab h1{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.maintab h1:hover{
+    text-shadow: 4px 4px 20px #8591A3;
+}
+
+.image1{
+    width: 200px;
+    border-radius: 50px;
+    box-shadow: 4px 4px 15px gray;
+}
+
+.card{
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #8591A3;
+}
+
+.card h2{
+    margin-bottom: 10px;
+}
+
+.contacts{
+    border: 1px solid black;
+    background-color: gray;
 }
 
 .row{
@@ -98,6 +95,9 @@ h3{
     width: 100%;
     box-sizing: border-box;
     border: none;
+    background-color: #8591A3;
+    color:#111E32;
+    
 
     border-bottom: 1px solid #ccc;
     margin-bottom: 10px;
@@ -113,12 +113,8 @@ h3{
     padding-bottom: 10px;
 }
 
-.table td:nth-child(1){
-    color:blueviolet;
-}
-
 .table td:nth-child(2), td:nth-child(3){
-    color: gray;
+    color: #5e1d1d;
     text-align: center;
 }
 
@@ -127,6 +123,7 @@ h3{
 }
 
 .btn{
+    font-family: inherit;
     padding: 5px 20px;
     border: none;
     cursor: pointer;
@@ -134,30 +131,4 @@ h3{
 
 .btn:hover{
     opacity: 0.8;
-}
-
-.bg-red{
-    background-color: rgb(255, 137, 137);
-}
-
-.bg-green{
-    background-color: rgb(131, 255, 131);
-}
-
-.bg-blue{
-    background-color: rgb(147, 147, 255);
-}
-
-.position{
-    border: 4px solid black;
-    margin-top: 20px;
-    margin-bottom: 500px;
-
-    padding: 20px;
-}
-
-.box{
-    width: 50px;
-    height: 50px;
-    background-color: lightcoral;
 }
