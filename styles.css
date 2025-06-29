@@ -1,0 +1,160 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    width: 50%;
+    margin: auto;
+    background-color:azure;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.maintab{
+    margin: 0px 0px 10px 0px;
+    font-size: 20px;
+    display: flex;
+}
+
+.maintab h1{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+a:active{
+    color: gray;
+}
+
+h2:hover{
+    text-shadow: 4px 4px 15px black;
+    transition: 0.5s;
+}
+
+.card{
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.card h2{
+    margin-bottom: 10px;
+}
+
+.image1{
+    width: 200px;
+    border-radius: 50px;
+    box-shadow: 4px 4px 15px gray;
+}
+
+.contacts{
+    border: 1px solid black;
+    background-color: gray;
+}
+
+h2{
+    margin: 0;
+}
+
+h3{
+    margin: 0;
+}
+
+.request{
+    
+}
+
+.row{
+    display: flex;
+}
+
+.row > .form-group{
+    width: 50%;
+    margin-right: 10px;
+}
+
+.form-group label{
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-group input{
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    outline: none;
+    padding: 10px 0px;
+}
+
+.table{
+    width: 100%;
+}
+
+.table th{
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(1){
+    color:blueviolet;
+}
+
+.table td:nth-child(2), td:nth-child(3){
+    color: gray;
+    text-align: center;
+}
+
+.contact h2{
+    text-align: center;
+}
+
+.btn{
+    padding: 5px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.bg-red{
+    background-color: rgb(255, 137, 137);
+}
+
+.bg-green{
+    background-color: rgb(131, 255, 131);
+}
+
+.bg-blue{
+    background-color: rgb(147, 147, 255);
+}
+
+.position{
+    border: 4px solid black;
+    margin-top: 20px;
+    margin-bottom: 500px;
+
+    padding: 20px;
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: lightcoral;
+
+}
