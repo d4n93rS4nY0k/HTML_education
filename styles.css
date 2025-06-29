@@ -7,7 +7,6 @@ body{
 
 }
 
-<<<<<<< HEAD
 *{
     padding: 0;
     margin: 0;
@@ -24,10 +23,7 @@ body{
     margin-top: 40px;
 }
 
-a{
-=======
 a {
->>>>>>> 54c7d2e349447d049b0a9c5832bdc840787477eb
     color: black;
     text-decoration: none;
 }
@@ -40,14 +36,13 @@ a:active{
     color: gray;
 }
 
-<<<<<<< HEAD
 h2:hover{
     text-shadow: 4px 4px 15px black;
     transition: 0.5s;
-=======
+}
+
 .bg-red{
     background-color: rgb(255, 137, 137);
->>>>>>> 54c7d2e349447d049b0a9c5832bdc840787477eb
 }
 
 .card{
@@ -56,13 +51,10 @@ h2:hover{
     border-radius: 20px;
 }
 
-<<<<<<< HEAD
 .card h2{
     margin-bottom: 10px;
 }
 
-=======
->>>>>>> 54c7d2e349447d049b0a9c5832bdc840787477eb
 .image1{
     width: 200px;
     border-radius: 50px;
@@ -80,7 +72,6 @@ h2{
 
 h3{
     margin: 0;
-<<<<<<< HEAD
 }
 
 .request{
@@ -169,7 +160,4 @@ h3{
     width: 50px;
     height: 50px;
     background-color: lightcoral;
-
-=======
->>>>>>> 54c7d2e349447d049b0a9c5832bdc840787477eb
 }
