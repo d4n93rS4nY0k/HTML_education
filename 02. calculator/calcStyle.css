@@ -5,8 +5,8 @@ body{
 
 .container{
     width: 50%;
-    padding: 10%;
     margin: auto;
+    margin-top: 10%;
 
     color:white;
 }
@@ -50,7 +50,6 @@ h1{
 
     border: none;
 
-    float: left;
     font-size: 30px;
 
     background-color: rgb(44, 156, 44);

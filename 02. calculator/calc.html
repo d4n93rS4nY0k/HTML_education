@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>01. JS Base</title>
     <link rel="stylesheet" href="calcStyle.css">
+    <script src="app.js" defer></script> 
 </head>
 <body>
     <div class="container">
@@ -13,29 +14,42 @@
         </h1>
         <div class="numbers">
             <form action="">
-                <input type="text" placeholder="Введите первое число">
+                <input id="num1" type="text" placeholder="Введите первое число" value="5">
             </form>
 
             <form action="">
-                <input type="text" placeholder="Введите второе число">
+                <input id="num2" type="text" placeholder="Введите второе число" value="10">
             </form>
         </div>
 
         <div class="buttons">
             <div class="btnplus">
-                <button>
+                <button id="plus">
                     <label for="btnplus">+</label>
                 </button>
             </div>
             <div class="btnminus">
-                <button>
+                <button id="minus">
                     <label for="btnminus">-</label>
                 </button>
             </div>
         </div>
 
+        <div class="buttons">
+            <div class="btnplus">
+                <button id="multiplication">
+                    <label for="btnplus">*</label>
+                </button>
+            </div>
+            <div class="btnminus">
+                <button id="division">
+                    <label for="btnminus">/</label>
+                </button>
+            </div>
+        </div>
+
         <div class="resultbtn">
-            <button>
+            <button id="submit">
                 <label for="">Вычислить</label>
             </button>
         </div>
@@ -50,6 +64,6 @@
             </div>
         </div>
 
-    </div>
+    </div>   
 </body>
 </html>
